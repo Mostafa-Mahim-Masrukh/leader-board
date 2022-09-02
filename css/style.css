@@ -1,0 +1,166 @@
+body {
+    background-color: #F3F1FF;
+}
+
+hr {
+    color: #9F9F9F;
+}
+
+section {
+    margin: 40px;
+}
+
+
+.conatainer {
+    background-color: white;
+}
+
+.player-section-header-title {
+    color: #562EFF;
+    margin-left: 225px;
+
+
+}
+
+.players-list-container {
+    background: white;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.player-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    padding: 20px;
+    row-gap: 20px;
+
+}
+
+
+.player-list img {
+    height: 50px;
+    width: 50px;
+}
+
+h4.player-name {
+    margin-left: 20px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+
+.blog-section-title h2 {
+    color: #562EFF;
+    margin-left: 225px;
+}
+
+
+
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: white;
+    width: 70%;
+    margin: 0px auto;
+    justify-items: center;
+
+}
+
+
+.blog {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 67%;
+    margin: 20px;
+}
+
+.blog-title {
+    margin-left: 20px;
+}
+
+.blog-title p {
+    color: #9F9F9F;
+
+}
+
+.blog-image img {
+    width: 115px;
+    height: 115px;
+}
+
+.author {
+    color: #562EFF;
+}
+
+.courses {
+    display: flex;
+    background: white;
+    width: 70%;
+    margin: 0px auto;
+    justify-content: space-around;
+
+}
+
+.course {
+    width: 250px;
+    height: 270px;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 5px 10px 24px -17px #888888;
+
+}
+
+.course-image img {
+    width: 225px;
+    height: 104px;
+}
+
+.course-title h4 {
+    height: 20px;
+}
+
+.star {
+    display: flex;
+    color: #FFC014;
+}
+
+.star .non-rating {
+    color: grey;
+}
+
+i.fa-sharp.fa-solid.fa-star {
+    font-size: 10px;
+}
+
+.course-footer {
+    display: flex;
+
+}
+
+.rating {
+    margin-left: 10px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    background: #FEE5DF;
+    padding: 0px 20px;
+    border-radius: 30px;
+}
+
+i.fa-solid.fa-clock {
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.time-range p {
+    font-weight: 600;
+}
